@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.bgContainer {
+  background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+  height: auto;
+  background-size: cover;
+}
+
+.colour {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 245, 207);
+}
+
+.container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+}
+

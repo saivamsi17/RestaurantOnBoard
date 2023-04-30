@@ -1,0 +1,70 @@
+.mainCard {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 70%;
+    margin-left: 200px;
+    background-color: white;
+    margin-top: 100px;
+    // box-shadow: 5px 15px 5px 15px lightgrey;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    justify-content: center;
+    font-size: large;
+    padding-top: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formDetails {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.submitButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.customerData {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.formData {
+    width: 50%;
+}
+
+.leftDiv {
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(70deg, blue, pink);
+}
+
