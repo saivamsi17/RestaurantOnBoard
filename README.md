@@ -28,7 +28,12 @@ on your browser open **localhost3000** and now you can see the application up an
 --Typescript
 
 --Bootstrap
+
+--MongoDB
 and various dependencies according to requirements
+
+**Technical Description**
+FoodEX is a single page application created using the above technologies and we have a landing page where user can enter the required details and on clicking of submit we are structuring the userData and passing those data to our Nodejs server through fetch API and from backend we are storing the data in the database we have used mongodb atlas as our database because of its ease of access and we can retreive all of customers data in view our clients page where we created an API to fetch the data from backend and show it to the user in the UI
 
 **Author**
 
