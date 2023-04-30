@@ -26,6 +26,7 @@ const MainCardContainer: FC = () => {
     transactions: false
   });
 
+  //validation of data as soon users updates a field
   useEffect(() => {
     clicked && (
       setIsError({
@@ -39,7 +40,7 @@ const MainCardContainer: FC = () => {
       }))
   }, [customerData, clicked]);
 
-
+  //validation of data and making POST call to backend on click of submit button
   const formValidation = (event: any) => {
     setClicked(true);
     if (customerData.restaurantName &&
@@ -67,6 +68,7 @@ const MainCardContainer: FC = () => {
           throw new Error('Network response was not ok');
         }
         setLoading(false);
+        //when users gets added successfully we can fire the swal to UI to show user data is saved
         Swal.fire({
           title: 'Eureka!',
           text: 'you have succeesfully added as a client',

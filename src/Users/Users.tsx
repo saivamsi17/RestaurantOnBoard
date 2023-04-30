@@ -27,8 +27,6 @@ const Users: FC = () => {
         console.error(error);
       })
   }
-  console.log(userData);
-
 
   return (
     <div className={`${styles.mainCard}`}>

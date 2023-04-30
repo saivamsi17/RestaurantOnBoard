@@ -1,6 +1,5 @@
 import React , {FC} from 'react';
 import styles from '../Users/Users.module.scss';
-import {FcShipped} from 'react-icons/fc'
 
 type userDataProps = {
   restaurantName?: string;
