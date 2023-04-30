@@ -5,7 +5,7 @@ const Navbar:FC = () => {
     return (
         <div className={`${styles.navContainer} w-100`}>
             <span>Become a member</span>
-            <span>View our clients</span>
+            <span>View clients</span>
         </div>
     )
 }
