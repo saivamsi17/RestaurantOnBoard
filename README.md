@@ -20,9 +20,13 @@ on your browser open **localhost3000** and now you can see the application up an
 **Technologies used**
 
 --React
+
 --HTML
---CSS-
+
+--CSS
+
 --Typescript
+
 --Bootstrap
 and various dependencies according to requirements
 
