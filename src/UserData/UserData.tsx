@@ -17,11 +17,10 @@ const UserData: FC<userDataProps> = ({
 }) => {
   return (
     <div className={` ${styles.customer}`}>
-      {/* <h2><FcShipped /></h2> */}
-      <span className='d-flex flex-start'>{restaurantName}</span>
-      <span>{ContactName}</span>
-      <span>{location}</span>
-      <span>{phone}</span>
+      <span className={`${styles.data}`}>{restaurantName?.toLocaleUpperCase()}</span>
+      <span className={`${styles.data}`}>{ContactName}</span>
+      <span className={`${styles.data}`}>{location}</span>
+      <span className={`${styles.data}`}>{phone}</span>
     </div>
   );
 };

@@ -1,12 +1,11 @@
 .mainCard {
     display: flex;
     flex-direction: row;
-    height: 700px;
+    height: auto;
     width: 70%;
     margin-left: 200px;
     background-color: white;
     margin-top: 100px;
-    // box-shadow: 5px 15px 5px 15px lightgrey;
     border-radius: 20px;
     margin-bottom: 100px;
 }
@@ -42,6 +41,7 @@ input::-webkit-inner-spin-button {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .customer {
@@ -62,9 +62,17 @@ input::-webkit-inner-spin-button {
 }
 
 .leftDiv {
+    display: flex;
     width: 50%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background: linear-gradient(70deg, blue, pink);
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMessage{
+    font-size: small;
+    color: red;
 }
 

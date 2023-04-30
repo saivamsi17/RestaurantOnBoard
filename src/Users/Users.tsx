@@ -33,6 +33,12 @@ const Users: FC = () => {
   return (
     <div className={`${styles.mainCard}`}>
       <div>
+        <div className={`${styles.headers}`}>
+        <span className={`${styles.data}`}>Restaurant</span>
+        <span className={`${styles.data}`}>Owner</span>
+        <span className={`${styles.data}`}>Location</span>
+        <span className={`${styles.data}`}>Contact</span>
+        </div>
         {userData.map((ele) => (
           <UserData
             restaurantName={ele.restaurantName}
